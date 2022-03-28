@@ -1,0 +1,48 @@
+.App {
+  margin: 1em;
+  text-align: center;
+}
+
+h1 {
+  font-family: cursive;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: auto;
+  width: 16em;
+}
+
+li {
+  padding: 5px;
+  margin: .1em;
+  background-color: #eee;
+  text-align: left;
+}
+
+li a {
+  color: grey;
+}
+
+li:hover {
+  background-color: darkolivegreen;
+  color: white;
+}
+
+li:hover a {
+  color: white;
+}
+
+span {
+  color: red;
+}
+
+button { 
+  min-width: 2em;
+  padding: 4px;
+  margin: 4px 2px 4px 2px;
+}
+/* div{
+  border: 1px solid;
+} */
