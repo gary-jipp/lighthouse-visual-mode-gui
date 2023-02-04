@@ -26,7 +26,7 @@ export default function App() {
         <button onClick={add}>Transition</button>
         <button onClick={replace}>Replace</button>
       </div>
-      <h4>{`${modeList.length - 1}: ${mode}`}</h4>
+      <h4>Top Plate: {`${modeList.length - 1}: ${mode}`}</h4>
       <ul> {modeList} </ul>
     </div>
   );
